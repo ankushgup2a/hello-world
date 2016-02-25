@@ -3,7 +3,7 @@ priceAlertId,int(11),NO,PRI,NULL,auto_increment
 91mobileId,int(11),NO,MUL,NOT pNULL,
 priceAlertCatId,"smallint(5) unsigned",NO,MUL,NULL,
 priceAlertEmail,varchar(255),NO,MUL,NULL,
-priceAlertAddDate,datetime,NO,,NULL,
+priceAlertAddDate,datetime,NO,,NOT NULL,
 priceAlertStatus,"tinyint(3) unsigned",NO,,NULL,
 priceAlertDate,date,NO,,NULL,
 priceAlertPrice,bigint(20),NO,,NULL,
