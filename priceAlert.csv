@@ -1,0 +1,12 @@
+Field,Type,Null,Key,Default,Extra
+priceAlertId,int(11),NO,PRI,NULL,auto_increment
+91mobileId,int(11),NO,MUL,NULL,
+priceAlertCatId,"smallint(5) unsigned",NO,MUL,NULL,
+priceAlertEmail,varchar(255),NO,MUL,NULL,
+priceAlertAddDate,datetime,NO,,NULL,
+priceAlertStatus,"tinyint(3) unsigned",NO,,NULL,
+priceAlertDate,date,NO,,NULL,
+priceAlertPrice,bigint(20),NO,,NULL,
+priceAlertLastAlertPrice,bigint(20),NO,,0,
+priceAlertSent,"tinyint(3) unsigned",NO,MUL,NULL,
+priceAlertUnsubscribed,tinyint(1),NO,MUL,0,
